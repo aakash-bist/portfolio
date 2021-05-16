@@ -21,7 +21,7 @@ function Home2() {
             <ul className="home_about_social_links">
               <li className="social_icons">
                 <a
-                  href="javascript:void(0)"
+                  href="https://github.com/aakash-bist"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home_social_icons"
@@ -31,7 +31,7 @@ function Home2() {
               </li>
               <li className="social_icons">
                 <a
-                  href="javascript:void(0)"
+                  href="https://twitter.com/aakash2me"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home_social_icons"
@@ -41,7 +41,7 @@ function Home2() {
               </li>
               <li className="social_icons">
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.linkedin.com/in/aakash-bist-015ab6159/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home_social_icons"
@@ -51,7 +51,7 @@ function Home2() {
               </li>
               <li className="social_icons">
                 <a
-                  href="javascript:void(0)"
+                  href="https://www.instagram.com/goodbetterbist/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home_social_icons"

@@ -15,7 +15,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        {/* <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -50,7 +50,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
