@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import { col, Badge } from "react-bootstrap";
+import { Badge } from "react-bootstrap";
 import "../../Assets/CSS/Experience.css";
 import loopback from "../../Assets/icons/loopback.png";
 
