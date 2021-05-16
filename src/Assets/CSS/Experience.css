@@ -1,0 +1,66 @@
+.main_section {
+background-color: #e9d5a1;
+padding-bottom: 6rem;
+}
+.tech_icon {
+    padding: 20px !important;
+    font-size: 44px;
+}
+.tech_images {
+    width: 2.7rem;
+    height: auto;
+}
+
+.vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_title {
+    font-size: 60px;
+    font-weight: 800;
+    max-width: 100%;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    padding: 3rem 0;
+    color: #f7f7f7;
+  }
+  .section_title span{
+    color:#eeb52a;
+  }
+
+  .badge{
+    padding: 8px;
+    margin-right: 6px;
+  }
+
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
+    border-radius: 8px;
+    box-shadow: 4px 3px 6px 1px #0000005e;
+}
+
+.vertical-timeline-element-title {
+    margin: 0;
+    padding: 0.5rem 0;
+    letter-spacing: .02rem;
+    text-align: left;
+}
+.vertical-timeline-element-subtitle {
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: .02rem;
+    text-align: left;
+}
+
+@media only screen and (min-width: 1170px){
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        left: 85%;
+}
+}
+@media only screen and (min-width: 767px){
+    .section_title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}

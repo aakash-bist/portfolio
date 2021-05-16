@@ -292,6 +292,14 @@ html {
 .section_title span{
   color:#eeb52a /*#f9004d;*/
 }
+
+@media only screen and (min-width: 767px){
+
+  .section_title {
+      font-size: 45px !important;
+      line-height: 55px !important;
+  }
+}
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
