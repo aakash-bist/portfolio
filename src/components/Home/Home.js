@@ -6,11 +6,12 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
-function Home() {
+import About from "../About/About";
+import Experience from "../Experience/Experience";
+const Home=() => {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home-section">
         <Particle />
         <Container className="home-content">
           <Row>
@@ -19,7 +20,7 @@ function Home() {
                 <Type />
               </div>
               
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              <h1 style={{ paddingBottom: 15 }} className="section_heading">
                 Hello, I'm <span>Aakash</span> welcome to my world.
               </h1>
 
@@ -32,6 +33,8 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      <About />
+      <Experience />
     </section>
   );
 }
