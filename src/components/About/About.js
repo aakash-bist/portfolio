@@ -8,8 +8,8 @@ import Techstack from "./Techstack";
 function About() {
   return (
     <section>
-      <Container fluid className="about_section">
       <Particle />
+      <Container fluid className="about_section">
       <Container>
         <h1 className="section_title">
           Professional <span>Skillset </span>
