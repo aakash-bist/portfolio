@@ -261,6 +261,12 @@ html {
     height: 100vh;
     min-height: 100vh;
   }
+  .showOnMobile{
+    display: none;
+    width: 100%;
+    height:auto;
+    margin: 10px auto;
+  }
 
 .home-content {
   display: flex;
@@ -794,4 +800,20 @@ background-color: #78B159;
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+@media (max-width:767px) {
+  .showOnMobile{
+    display: block;
+  }
+  .home-section{
+  background-image:none;
+}
+.section_heading {
+  font-size: 45px;
+  line-height: 55px;
+  padding: 40px 0;
+}
+.about_card {
+  margin-top: 2rem;
+}
 }

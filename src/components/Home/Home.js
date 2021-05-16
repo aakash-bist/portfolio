@@ -8,6 +8,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import About from "../About/About";
 import Experience from "../Experience/Experience";
+import Aakash from "../../Assets/aakash.PNG"
 const Home=() => {
   return (
     <section>
@@ -19,11 +20,10 @@ const Home=() => {
               <div>
                 <Type />
               </div>
-              
               <h1 style={{ paddingBottom: 15 }} className="section_heading">
                 Hello, I'm <span>Aakash</span> welcome to my world.
               </h1>
-
+              <img className={"showOnMobile"} src={Aakash} alt="aakash" srcset="" />
             </Col>
 
             {/* <Col md={5} style={{ paddingBottom: 20 }}>
