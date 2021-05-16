@@ -21,7 +21,7 @@ function Home2() {
             <ul className="home_about_social_links">
               <li className="social_icons">
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home_social_icons"
@@ -31,7 +31,7 @@ function Home2() {
               </li>
               <li className="social_icons">
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home_social_icons"
@@ -41,7 +41,7 @@ function Home2() {
               </li>
               <li className="social_icons">
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home_social_icons"
@@ -51,7 +51,7 @@ function Home2() {
               </li>
               <li className="social_icons">
                 <a
-                  href="#"
+                  href="javascript:void(0)"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home_social_icons"
