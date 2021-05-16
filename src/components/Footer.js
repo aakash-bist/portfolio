@@ -14,43 +14,7 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
-        </Col>
-        {/* <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="javascript:void(0)"
-                style={{ color: "white" }}
-              >
-                <i className="fab fa-github"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="javascript:void(0)"
-                style={{ color: "white" }}
-              >
-                <i className="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="javascript:void(0)"
-                style={{ color: "white" }}
-              >
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="javascript:void(0)"
-                style={{ color: "white" }}
-              >
-                <i className="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </Col> */}
+        </Col>        
       </Row>
     </Container>
   );
