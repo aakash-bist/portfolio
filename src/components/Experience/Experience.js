@@ -17,7 +17,7 @@ const Experience = () => {
       icon: "devicon-angularjs-plain",
       timePeriod: "1.2020 - Present",
       mainTechStack: ["Angular 6,7,8", "LoopBack 3.x"],
-      technologies: ["Angular 8", "LoopBack 3.x", "TypeScript"],
+      technologies: ["Angular 8", "LoopBack 3.x", "TypeScript" , "MongoDb"],
     },
     {
       company: "Planify Consultancy India Pvt. Ltd.",
