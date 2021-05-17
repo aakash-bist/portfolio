@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "../../style.css";
+import "../../Assets/CSS/Home.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 // import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
@@ -23,7 +24,7 @@ const Home=() => {
               <h1 style={{ paddingBottom: 15 }} className="section_heading">
                 Hello, I'm <span>Aakash</span> welcome to my world.
               </h1>
-              <img className={"showOnMobile"} src={Aakash} alt="aakash" srcset="" />
+              <img className={"showOnMobile"} src={Aakash} alt="aakash" />
             </Col>
 
             {/* <Col md={5} style={{ paddingBottom: 20 }}>

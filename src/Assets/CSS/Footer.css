@@ -1,0 +1,76 @@
+
+.footer {
+    background-color: rgb(10, 4, 22);
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important ;
+  }
+  .footer-copywright {
+    text-align: center !important;
+  }
+  
+  .footer-body {
+    text-align: center !important;
+  }
+  
+  
+  .footer h3 {
+      font-size: 1em;
+    color: white !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+.footer-copywright h3 span {
+    color: #eeb52a;
+}
+  .footer-icons {
+      margin-top: 0.5em !important;
+      margin-bottom: 0.5em !important;
+      padding: 0 !important;
+    }
+
+    .animate-like  {
+        animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+        animation-duration: 2.1s; /* Change to speed up or slow down */
+        animation-iteration-count: infinite; /* Never stop waving :) */
+        transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+        display: inline-block;
+      }
+      
+      @keyframes wave-animation {
+        0% {
+          transform: rotate(0deg);
+        }
+        10% {
+          transform: rotate(5deg);
+        } /* The following five values can be played with to make the waving more or less extreme */
+        20% {
+          transform: rotate(-5deg);
+        }
+        30% {
+          transform: rotate(5deg);
+        }
+        40% {
+          transform: rotate(0deg);
+        }
+        50% {
+          transform: rotate(0deg);
+        }
+        60% {
+          transform: rotate(0deg);
+        } /* Reset for the last half to pause */
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+
+
+    @media (max-width: 767px) {
+      .footer-copywright {
+        text-align: center !important;
+      }
+    
+      .footer-body {
+        text-align: center !important;
+      }
+    }

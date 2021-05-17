@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
-import "../../style.css";
+import "../../Assets/CSS/About.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Techstack from "./Techstack";
 
