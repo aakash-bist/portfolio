@@ -14,12 +14,25 @@ function Particle() {
             },
           },
           line_linked: {
-            enable: false,
-            opacity: 0.03,
+            enable: true,
+            distance: 128,
+            color: "#fff",
+            opacity: 0.3,
+            width: 0.3
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            enable: true,
+            speed: 1,
+            direction: "none",
+            random: false,
+            straight: false,
+            out_mode: "out",
+            bounce: false,
+            attract: {
+              enable: false,
+              rotateX: 600,
+              rotateY: 1200
+            }
           },
           size: {
             value: 1,
