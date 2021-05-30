@@ -12,7 +12,7 @@
   
   .home-section {
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
     background-color: #000;
       background-image: url(../../Assets/aakash.PNG);
       background-size: auto 70%;
@@ -112,7 +112,7 @@
   .about_card_dots span:nth-child(2){
   background-color: #eeb52a;
   }
-  .about_card_dots span:last-child{
+  .about_card_dots span:nth-child(3){
   background-color: #78B159;
   }
   
@@ -212,4 +212,29 @@
     padding: 40px 0;
   }
 
-  }  
+  }
+  
+
+  
+.resume_ul {
+  list-style: none;
+  padding: 1rem;
+}
+.resume, .resume:hover {
+  color: #eeb52a;
+  border: solid 1px #c9c9c9;
+  padding: 1rem;
+  font-weight: 500;
+  border-radius: 999px;
+  text-decoration: none;
+
+}
+
+
+
+.resume:hover {
+  color: #c9c9c9;
+  border-color: #eeb52a;
+}
+
+

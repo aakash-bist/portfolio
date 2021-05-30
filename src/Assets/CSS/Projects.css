@@ -1,0 +1,23 @@
+.card-image-top {
+    padding: 5px;
+}
+.project_card_img{
+    object-fit: cover;
+    height: 10.5rem;
+}
+.startDate {
+    position: absolute;
+    right: 0;
+    margin: 0;
+}
+.project_card:hover {
+    box-shadow: 5px 4px 19px 0px #eeb52abf;
+    transform: scale(1.05);
+}
+.project_title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.image_outer_layer {
+    min-height: 10.5rem;
+}

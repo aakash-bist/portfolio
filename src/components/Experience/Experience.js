@@ -14,7 +14,7 @@ const Experience = () => {
     {
       company: "E-Tech Service Pvt. Ltd.",
       position: "MEAN Stack Developer",
-      icon: "devicon-angularjs-plain",
+      image: loopback,
       timePeriod: "1.2020 - Present",
       mainTechStack: ["Angular 6,7,8", "LoopBack 3.x"],
       technologies: ["Angular 8", "LoopBack 3.x", "TypeScript" , "MongoDb"],
@@ -22,7 +22,7 @@ const Experience = () => {
     {
       company: "Planify Consultancy India Pvt. Ltd.",
       position: "Front-End Developer",
-      image: loopback,
+      icon: "devicon-angularjs-plain",
       timePeriod: "8.2019 - 11.2019",
       mainTechStack: ["Angular 6"],
       technologies: ["Angular 6", "Bootstrap 4", "TypeScript"],
@@ -97,6 +97,16 @@ const Experience = () => {
             </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
+      <VerticalTimeline>
+            {/* {work} */}
+            <VerticalTimelineElement
+              className="lastExperienceIcon"
+              icon={
+                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+              }
+            />
+          </VerticalTimeline>
+
     </section>
   );
 };

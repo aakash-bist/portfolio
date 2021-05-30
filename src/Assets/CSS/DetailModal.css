@@ -1,0 +1,39 @@
+
+.awssld__content > img {
+    object-fit: contain;
+}
+.modal-footer{
+    justify-content: center ;
+}
+.modal-body{
+    padding:0 !important;
+}
+.modal_footer .tech_icons{
+    font-size: 2.5em;
+    margin: 5px;
+}
+.modal_footer .tech_icon_images {
+    padding: 5px !important;
+}
+.modal_footer .tech_icons span {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.modal_about_content {
+    padding: 0.5rem 1.25rem 3.25rem 1.25rem;
+}
+.awssld__content > img {
+    object-fit: contain !important;
+    width: 100%;
+    background: #fff;
+}
+.close_modal {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+@media (max-width: 767px){
+    .about_card {
+        margin-top: 0;
+    }
+}
