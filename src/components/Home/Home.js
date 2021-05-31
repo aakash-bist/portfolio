@@ -29,7 +29,7 @@ const Home = () => {
               <img className={"showOnMobile"} src={Aakash} alt="aakash" />
               <ul className={"resume_ul"}>
                 <li>
-                  <a href={resume} target="_blank" className={"resume"}>
+                  <a href={resume} target="_blank" rel="noreferrer" className={"resume"}>
                     Download Resume
                   </a>
                 </li>
