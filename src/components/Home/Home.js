@@ -12,9 +12,11 @@ import About from "../About/About";
 import Experience from "../Experience/Experience";
 import Aakash from "../../Assets/aakash.PNG"
 import Projects from "../Projects/Projects";
+import ribbon from "../../Assets/icons/ribbon.svg"
 const Home = () => {
   return (
     <section>
+      <img className="ribbon" src={ribbon}/>
       <Container fluid className="home-section">
         <Particle />
         <Container className="home-content">

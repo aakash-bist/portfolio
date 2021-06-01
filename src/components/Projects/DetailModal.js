@@ -17,7 +17,7 @@ const DetailModal = (props) => {
       </Modal.Header> */}
       <Modal.Body>
       <div className="about_card">
-                {/* <span >{project.title}</span> */}
+                <span className="modal_project_title">{project.title}</span>
                 <Button variant="danger" className="close_modal" onClick={()=> props.setShowModal(false)}><i class="fa fa-times" aria-hidden="true"></i></Button>
               <div className="about_card_dots">
                 <span></span>

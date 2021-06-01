@@ -22,6 +22,21 @@
 .modal_about_content {
     padding: 0.5rem 1.25rem 3.25rem 1.25rem;
 }
+.modal_project_title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: .7rem;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+}
+@media (max-width:767px) {
+    .modal_project_title{    
+        top: 1rem;
+        font-size: 12px;
+    }
+}
 .awssld__content > img {
     object-fit: contain !important;
     width: 100%;
