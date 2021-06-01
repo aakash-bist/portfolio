@@ -16,7 +16,8 @@ import ribbon from "../../Assets/icons/ribbon.svg"
 const Home = () => {
   return (
     <section>
-      <img className="ribbon" src={ribbon}/>
+      
+      <img className="ribbon" alt="ribbon" src={ribbon}/>
       <Container fluid className="home-section">
         <Particle />
         <Container className="home-content">
