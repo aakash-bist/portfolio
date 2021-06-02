@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <section>
       
-      <img className="ribbon" alt="ribbon" src={ribbon}/>
+      <img className="download_resume_ribbon" alt="ribbon" onClick={() => window.open(resume,"_blank")} src={ribbon}/>
       <Container fluid className="home-section">
         <Particle />
         <Container className="home-content">

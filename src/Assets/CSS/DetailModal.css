@@ -31,12 +31,7 @@
     font-weight: 500;
     letter-spacing: 0.02rem;
 }
-@media (max-width:767px) {
-    .modal_project_title{    
-        top: 1rem;
-        font-size: 12px;
-    }
-}
+
 .awssld__content > img {
     object-fit: contain !important;
     width: 100%;
@@ -47,8 +42,15 @@
     right: 5px;
     top: 5px;
 }
+.awssld {
+    --loader-bar-color: #eeb52a !important;
+}
 @media (max-width: 767px){
     .about_card {
         margin-top: 0;
+    }
+    .modal_project_title{    
+        top: 1rem;
+        font-size: 12px;
     }
 }

@@ -20,7 +20,6 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        {/* <Navbar /> */}
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
