@@ -61,9 +61,6 @@ const Experience = () => {
       </div>
     );
   };
-  const RandomColour = () => {
-    return "#" + ((1<<24)*Math.random() | 0).toString(16)
-  };
   return (
     <section className={"main_section"}>
        <h1 className="section_title">
@@ -76,7 +73,7 @@ const Experience = () => {
               className="vertical-timeline-element--work"
               date={item.timePeriod}
               iconStyle={{
-                background: "#FFF",//`${RandomColour()}`,
+                background: "#FFF",
                 color: "#fff",
                 textAlign: "center",
               }}
