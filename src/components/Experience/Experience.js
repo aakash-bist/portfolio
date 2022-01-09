@@ -7,22 +7,32 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { Badge } from "react-bootstrap";
 import "../../Assets/CSS/Experience.css";
-import loopback from "../../Assets/icons/loopback.png";
+import algoscale from "../../Assets/logo/algoscale.png";
+import etech from "../../Assets/logo/etech.png";
+import planify from "../../Assets/logo/planify.png";
 
 const Experience = () => {
   const resumeExperience = [
     {
+      company: "Algoscale Technologies Pvt. Ltd.",
+      position: "Software Developer",
+      image: algoscale,
+      timePeriod: "8.2020 - Present",
+      mainTechStack: ["Angular", "MySQL", "ElasticSearch", "NodeJS"],
+      technologies: ["Angular 4,8,12", "MySQL 8", "NodeJS", "TypeScript" , "ElasticSearch 7+"],
+    },
+    {
       company: "E-Tech Service Pvt. Ltd.",
       position: "MEAN Stack Developer",
-      image: loopback,
-      timePeriod: "1.2020 - Present",
-      mainTechStack: ["Angular 6,7,8", "LoopBack 3.x"],
-      technologies: ["Angular 8", "LoopBack 3.x", "TypeScript" , "MongoDb"],
+      image: etech,
+      timePeriod: "1.2020 - 8.2020",
+      mainTechStack: ["Angular", "LoopBack"],
+      technologies: ["Angular 6,7,8,10,12", "LoopBack 3.x", "TypeScript" , "MongoDb"],
     },
     {
       company: "Planify Consultancy India Pvt. Ltd.",
       position: "Front-End Developer",
-      icon: "devicon-angularjs-plain",
+      image: planify, //icon:"devicon-angularjs-plain"
       timePeriod: "8.2019 - 11.2019",
       mainTechStack: ["Angular 6"],
       technologies: ["Angular 6", "Bootstrap 4", "TypeScript"],
@@ -66,7 +76,7 @@ const Experience = () => {
               className="vertical-timeline-element--work"
               date={item.timePeriod}
               iconStyle={{
-                background: `${RandomColour()}`,
+                background: "#FFF",//`${RandomColour()}`,
                 color: "#fff",
                 textAlign: "center",
               }}

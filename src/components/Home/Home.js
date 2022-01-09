@@ -27,7 +27,7 @@ const Home = () => {
                 <Type />
               </div>
               <h1 style={{ paddingBottom: 15 }} className="section_heading">
-                Hello, I'm <span>Aakash</span> welcome to my world.
+                Hello, I'm <span>Aakash</span>, Software Engineer
               </h1>
               <img className={"showOnMobile"} src={Aakash} alt="aakash" />
               <ul className={"resume_ul"}>
