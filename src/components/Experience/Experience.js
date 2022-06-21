@@ -18,8 +18,8 @@ const Experience = () => {
       position: "Software Developer",
       image: algoscale,
       timePeriod: "8.2021 - Present",
-      mainTechStack: ["Angular", "MySQL", "ElasticSearch", "NodeJS"],
-      technologies: ["Angular 4,8,12", "MySQL 8", "NodeJS", "TypeScript" , "ElasticSearch 7+"],
+      mainTechStack: ["Angular", "MySQL", "NodeJS", "ElasticSearch", "Redshift"],
+      technologies: ["Angular 4,8,12", "NodeJS", "TypeScript", "NestJs", "ElasticSearch 7+", "MySQL 8", "Redshift", "MongoDB"],
     },
     {
       company: "E-Tech Service Pvt. Ltd.",

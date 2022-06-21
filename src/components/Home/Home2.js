@@ -77,7 +77,7 @@ function Home2() {
               </div>
               <div className="about_content">
                 <h4>Hi :)</h4>
-                <p>I'm Aakash. Passionate about software development who focuses on writing clean, elegant and efficient code.</p>
+                <p>I'm Aakash. I am good in making all your works very easy.</p>
               </div>
             </div>
           </Col>
